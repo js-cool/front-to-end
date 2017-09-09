@@ -1,0 +1,27 @@
+{
+  "name": "front-to-end",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node .",
+    "build": "NODE_ENV=production webpack --config webpack.config.js --progress --hide-modules"
+  },
+  "repository": "git@github.com:js-cool/front-to-end.git",
+  "author": "Willin Wang <willin@willin.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-preset-env": "^1.6.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "eslint": "^4.6.1",
+    "eslint-config-dwing": "^1.1.0",
+    "webpack": "^3.5.6",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "koa": "^2.3.0"
+  }
+}
